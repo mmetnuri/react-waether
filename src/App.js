@@ -66,6 +66,9 @@ function App() {
             onKeyDown={search}
             value={query}
           />
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quaerat.</p>
+          </div>
         </div>
         {typeof weather.main != "undefined" ? (
           <div>
